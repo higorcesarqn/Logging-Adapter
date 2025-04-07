@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcqn.Logging.Adapter", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcqn.Logging.Adapter.Abstractions", "src\Hcqn.Logging.Adapter.Abstractions\Hcqn.Logging.Adapter.Abstractions.csproj", "{C903D06B-0E99-4088-BC38-3DD101A5ADBB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{79FB4DC5-AFB0-4FD2-8308-83FB78E4FF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcqn.Logging.Adapter.Tests", "tests\Hcqn.Logging.Adapter.Tests\Hcqn.Logging.Adapter.Tests.csproj", "{453940DF-96ED-40BE-8DF4-82605666E121}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,18 @@ Global
 		{C903D06B-0E99-4088-BC38-3DD101A5ADBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C903D06B-0E99-4088-BC38-3DD101A5ADBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C903D06B-0E99-4088-BC38-3DD101A5ADBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453940DF-96ED-40BE-8DF4-82605666E121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453940DF-96ED-40BE-8DF4-82605666E121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453940DF-96ED-40BE-8DF4-82605666E121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453940DF-96ED-40BE-8DF4-82605666E121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6A14436-BE42-47B8-82F1-F0591754A15B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C903D06B-0E99-4088-BC38-3DD101A5ADBB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{453940DF-96ED-40BE-8DF4-82605666E121} = {79FB4DC5-AFB0-4FD2-8308-83FB78E4FF33}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F4C1228-7994-45FF-A4E3-296D7DCA64A6}
