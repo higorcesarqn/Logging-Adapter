@@ -1,6 +1,7 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Hcqn.Logging.Adapter.Abstractions;
+using Microsoft.Extensions.Logging;
 
-namespace Hcqn.Logging.Adapter.Abstractions;
+namespace Hcqn.Logging.Adapter;
 
 public static class LoggerFactoryExtensions
 {
