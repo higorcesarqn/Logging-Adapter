@@ -3,7 +3,7 @@ using Moq;
 
 namespace Hcqn.Logging.Adapter.Tests;
 
-public class LoggerAdapterOfTTests
+public sealed class LoggerAdapterOfTTests
 {
     [Fact]
     public void Constructor_WithNullFactory_ThrowsArgumentNullException()

@@ -3,7 +3,7 @@ using Moq;
 
 namespace Hcqn.Logging.Adapter.Tests;
 
-public class LoggerAdapterTests
+public sealed class LoggerAdapterTests
 {
     [Fact]
     public void CreateScope_ShouldCallLoggerWithCorrectParameters()
