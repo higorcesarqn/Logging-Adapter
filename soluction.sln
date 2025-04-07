@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcqn.Logging.Adapter", "src\Hcqn.Logging.Adapter\Hcqn.Logging.Adapter.csproj", "{C6A14436-BE42-47B8-82F1-F0591754A15B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcqn.Logging.Adapter.Abstractions", "Hcqn.Logging.Adapter.Abstractions\Hcqn.Logging.Adapter.Abstractions.csproj", "{B9F06A02-88C9-4829-92A9-7DDD53208A73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hcqn.Logging.Adapter.Abstractions", "src\Hcqn.Logging.Adapter.Abstractions\Hcqn.Logging.Adapter.Abstractions.csproj", "{C903D06B-0E99-4088-BC38-3DD101A5ADBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{C6A14436-BE42-47B8-82F1-F0591754A15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6A14436-BE42-47B8-82F1-F0591754A15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6A14436-BE42-47B8-82F1-F0591754A15B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9F06A02-88C9-4829-92A9-7DDD53208A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9F06A02-88C9-4829-92A9-7DDD53208A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9F06A02-88C9-4829-92A9-7DDD53208A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9F06A02-88C9-4829-92A9-7DDD53208A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C903D06B-0E99-4088-BC38-3DD101A5ADBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C903D06B-0E99-4088-BC38-3DD101A5ADBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C903D06B-0E99-4088-BC38-3DD101A5ADBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C903D06B-0E99-4088-BC38-3DD101A5ADBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

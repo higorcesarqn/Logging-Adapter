@@ -1,6 +1,5 @@
-﻿namespace Hcqn.Logging.Adapter.Abstractions
+﻿namespace Hcqn.Logging.Adapter.Abstractions;
+
+public interface ILoggerAdapter<T> : ILoggerAdapter
 {
-    public interface ILoggerAdapter<T> : ILoggerAdapter
-    {
-    }
 }
